@@ -19,7 +19,6 @@ function modifyArray(nums) {
     // }
     // console.log(modified)
 }
-
 modifyArray(nums)
 
 
