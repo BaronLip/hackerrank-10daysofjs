@@ -3,12 +3,10 @@
 // 1. MM/DD/YYYY => 04/25/2013 
 // 2. Month Day, Year => April 25, 2013
 
-
 function getDayName(dateString){
     let dayName;
-        
-    let date = new Date(dateString);
-    let dayNumber = date.getDay();
+    let date = new Date(dateString); // Creates a date format.
+    let dayNumber = date.getDay(); // Returns a number representing the day of the week. 
 
     switch(dayNumber) {
         case 0:
