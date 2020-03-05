@@ -4,7 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .buttonContainer {
+        /* -----styles for day8 begin: -----*/
+        /* .buttonContainer {
             width: 25%;
         }
         
@@ -12,7 +13,8 @@
             width: 32%;
             height: 48px;
             font-size: 16px;
-        }
+        } */
+        /* -----styles for day8 end: -----*/
 
         /* #btn {
             width: 96px;
@@ -21,9 +23,29 @@
             color: blueviolet;
         } */
     </style>
+    <link rel="stylesheet" type="text/css" href="/binary_calculator.css"
 </head>
 <body>
     <p>10DaysOfJS</p>
+
+    <div id="res">
+
+    </div>
+    <div>
+        <!-- contains row1 of buttons. -->
+        <button id="btn0" class="btn">0</button>
+        <button id="btn1" class="btn">1</button>
+        <button id="btnClr" class="btn">C</button>
+        <button id="btnEql" class="btn">=</button>
+    </div>
+    <div>
+        <!-- contains row2 of buttons. -->
+        <button id="btnSum" class="btn">+</button>
+        <button id="btnSub" class="btn">-</button>
+        <button id="btnMul" class="btn">*</button>
+        <button id="btnDiv" class="btn">/</button>
+    </div>
+
 
     <script src="/day9.js"></script>
     <!-- <script src="/10DaysOfJS.js"></script> -->
