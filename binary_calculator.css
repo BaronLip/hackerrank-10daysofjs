@@ -9,7 +9,7 @@ body {
     font-size: 20px;
 }
 
-#btn0, #btn1 {
+#btn0, #btn1{
     background-color: lightgreen;
     color: brown;
 }
@@ -24,7 +24,7 @@ body {
     color: red;
 }
 
-.btn {
+.btn, .input {
     width: 25%;
     height: 36px;
     font-size: 18px;
